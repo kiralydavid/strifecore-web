@@ -1,0 +1,14 @@
+*.sw*
+*~
+build/
+bin/
+node_modules/
+vendor/
+.idea/
+*.iml
+*.iws
+target/
+.classpath
+.project
+.settings/
+classes/

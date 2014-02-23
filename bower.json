@@ -1,0 +1,16 @@
+{
+  "name": "strifecore-web",
+  "version": "0.0.1",
+  "devDependencies": {
+    "angular": "~1.2.13",
+    "angular-mocks": "~1.0.7",
+    "bootstrap": "~3.1.1",
+    "angular-bootstrap": "~0.10.0",
+    "angular-ui-router": "0.2.8-bowratic-tedium",
+    "angular-ui-utils": "~0.1.1"
+  },
+  "dependencies": {},
+  "resolutions": {
+    "angular": "~1.2.13"
+  }
+}
