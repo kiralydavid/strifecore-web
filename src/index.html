@@ -4,7 +4,7 @@
     <title ng-bind="pageTitle"></title>
 
     <!-- font awesome from BootstrapCDN -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
     <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
@@ -16,7 +16,14 @@
   <body>
     <div class="container">
       <div class="masthead">
-        <h3 class="muted">StrifeCore <small>v<%= version %></small></h3>
+        <h3 class="muted">
+            <a href="/home" style="text-decoration: none">StrifeCore</a>
+            <small>v<%= version %></small>
+
+            <div class="pull-right">
+                <div login-box user-holder="user"></div>
+            </div>
+        </h3>
         <hr />
       </div>
     </div>
