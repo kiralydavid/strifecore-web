@@ -1,6 +1,10 @@
 angular.module( 'strifecore.loginbox', [
-        'ngLadda'
+        'ngLadda',
+        'ngAnimate'
     ])
+    .config(['$httpProvider', function($httpProvider) {
+
+    }])
     .factory('LoginService', function($http){
         return {
             login: function(username, password) {
